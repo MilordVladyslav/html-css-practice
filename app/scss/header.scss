@@ -1,0 +1,36 @@
+
+
+.header {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #787878;
+}
+
+.logo {
+  float: left;
+}
+
+.contact {
+  background: $dark-gray;
+  width: 279px;
+  height: 108px;
+  margin-left: 21px;
+  float: left;
+}
+
+.more {
+  width: 513px;
+  height: 108px;
+  background: $dark-gray;
+  float: right;
+  text-align: right;
+  padding: 21px 22px 10px 10px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  p, a {
+    color: white;
+  }
+  a {
+    display: block;
+  }
+}

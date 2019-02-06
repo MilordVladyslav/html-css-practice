@@ -1,0 +1,58 @@
+
+footer {
+  padding-top: 22px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid $dark-gray;
+}
+
+.foot-left {
+
+  width: 296px;
+  height: 180px;
+    ol {
+      columns: 2;
+      line-height: 22px;
+    }
+  }
+
+.foot-center {
+  width: 297px;
+  margin: 0 28px;
+  ul {
+    list-style-type: square;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+}
+
+.foot-right {
+  width: 308px;
+  height: 180px;
+  .foot-info {
+    background: $dark-gray;
+    height: 76px;
+    margin-bottom: 26px;
+  }
+  img {
+    width: 308px;
+    height: 76px;
+  }
+}
+
+.foot-left, .foot-center {
+  background: $dark-gray;
+  padding: 12px 23px;
+}
+
+.foot-left, .foot-center, .foot-right {
+  color: white;
+  line-height: 22px;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 180px;
+}
+
+
