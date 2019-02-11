@@ -4,6 +4,8 @@
   padding-top: 22px;
   padding-bottom: 22px;
   border-bottom: 1px solid #787878;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -12,9 +14,8 @@
 
 .contact {
   background: $dark-gray;
-  width: 279px;
+  width: 301px;
   height: 108px;
-  margin-left: 21px;
   float: left;
 }
 

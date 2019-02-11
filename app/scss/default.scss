@@ -1,6 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+
+
 .wrapper {
   width: 960px;
-  margin: 0 auto;
+  margin: 5px auto;
   min-height: 100%;
   position: relative;
 }
@@ -11,4 +17,6 @@
   clear: both;
 }
 
-//787878
+
+
+
