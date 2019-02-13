@@ -90,7 +90,6 @@ body {
   width: 776px;
   float: right; }
   .center .image-content {
-    padding-left: 10px;
     min-height: 556px; }
   .center img {
     margin-top: 20px;
@@ -111,7 +110,7 @@ body {
 
 .lower-content {
   padding-top: 15px;
-  padding-left: 30px;
+  padding-left: 20px;
   line-height: 22px;
   font-size: 14px;
   color: #777; }
