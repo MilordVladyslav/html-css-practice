@@ -1,6 +1,7 @@
 html,
 body {
-  height: 100%; }
+  height: 100%;
+  font-family: "Arial MT"; }
 
 .wrapper {
   width: 960px;
@@ -65,11 +66,13 @@ body {
 
 .content {
   padding: 21px 0;
-  padding-bottom: 228px; }
+  padding-bottom: 228px;
+  position: relative;
+  min-height: 70%; }
 
 .left-menu {
   width: 184px;
-  padding: 14px;
+  padding: 14px 8px 14px 14px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #777;
@@ -83,15 +86,17 @@ body {
     color: white;
     text-decoration: none; }
 
-.center .image-content {
-  padding-left: 10px;
-  min-height: 540px; }
-
-.center img {
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 131px;
-  height: 150px; }
+.center {
+  width: 776px;
+  float: right; }
+  .center .image-content {
+    padding-left: 10px;
+    min-height: 556px; }
+  .center img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 131px;
+    height: 150px; }
 
 .higer-content {
   width: 756px;
@@ -102,11 +107,11 @@ body {
 .green {
   position: absolute;
   left: 0;
-  bottom: 0; }
+  bottom: 227px; }
 
 .lower-content {
   padding-top: 15px;
-  padding-left: 205px;
+  padding-left: 30px;
   line-height: 22px;
   font-size: 14px;
   color: #777; }

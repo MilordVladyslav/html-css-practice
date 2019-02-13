@@ -8,11 +8,13 @@
 .content {
   padding: 21px 0;
   padding-bottom: 228px;
+  position: relative;
+  min-height: 70%;
 }
 
 .left-menu {
   width: 184px;
-  padding: 14px;
+  padding: 14px 8px 14px 14px;
   box-sizing: border-box;
   background: $dark-gray;
   color: white;
@@ -31,9 +33,12 @@
 
 .center {
 
+  width: 776px;
+  float: right;
+
   .image-content {
     padding-left: 10px;
-    min-height: 540px;
+    min-height: 556px;
   }
   img {
     margin-top: 20px;
@@ -53,13 +58,13 @@
 .green {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 227px;
 }
 
 
 .lower-content {
   padding-top: 15px;
-  padding-left: 205px;
+  padding-left: 30px;
   line-height: 22px;
   font-size: 14px;
   color: #777;
