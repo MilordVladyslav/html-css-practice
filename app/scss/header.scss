@@ -5,7 +5,22 @@
   padding-bottom: 22px;
   border-bottom: 1px solid #787878;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
+  .wrapper-block-1 {
+    min-width: 122px;
+    margin-right: 12px;
+  }
+
+  .wrapper-block-2 {
+    min-width: 279px;
+    margin-right: 24px;
+  }
+
+  .wrapper-block-3 {
+    min-width: 513px;
+  }
+
 }
 
 .logo {

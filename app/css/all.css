@@ -21,10 +21,18 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .header .wrapper-block-1 {
+    min-width: 122px;
+    margin-right: 12px; }
+  .header .wrapper-block-2 {
+    min-width: 279px;
+    margin-right: 24px; }
+  .header .wrapper-block-3 {
+    min-width: 513px; }
 
 .logo {
   float: left; }
