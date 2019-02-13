@@ -1,7 +1,7 @@
 
 .left {
   float: left;
-  height: 770px;
+  height: 787px;
   position: relative;
 }
 
@@ -17,6 +17,8 @@
   background: $dark-gray;
   color: white;
   line-height: 1.35;
+  max-height: 380px;
+  overflow-y: auto;
 
   h2 {
     font-weight: bold;
@@ -31,6 +33,7 @@
 
   .image-content {
     padding-left: 10px;
+    min-height: 540px;
   }
   img {
     margin-top: 20px;

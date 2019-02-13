@@ -9,9 +9,9 @@ footer {
 }
 
 .foot-left {
-
   width: 296px;
   height: 180px;
+  overflow-y: auto;
     ol {
       columns: 2;
       line-height: 22px;
@@ -21,6 +21,7 @@ footer {
 .foot-center {
   width: 297px;
   margin: 0 28px;
+  overflow-y: auto;
   ul {
     list-style-type: square;
     font-size: 16px;
